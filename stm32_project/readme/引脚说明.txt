@@ -1,0 +1,25 @@
+KEY
+	加：PA5
+	减：PA7
+	确认：PB1
+
+AS608
+	vcc：电源 3.3
+	TX：PA3
+	RX：PA2
+	GND: 接地
+	Vi：3.3V
+	wak：3.3V
+
+OLED
+	SDA：PB9
+	SCL：PB8
+	VCC: 3.3V
+	GND：接地
+USART2
+	TX PA9
+	RX PA10
+
+SYN6288
+	TX PB11
+	RX PB10

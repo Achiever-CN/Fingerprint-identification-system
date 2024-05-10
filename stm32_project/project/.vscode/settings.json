@@ -1,0 +1,18 @@
+{
+        "files.associations": {
+                "menu.h": "c",
+                "public_include.h": "c",
+                "string.h": "c",
+                "ctl_as608.h": "c",
+                "serial.h": "c",
+                "stm32f10x.h": "c",
+                "delay.h": "c",
+                "syn6288.h": "c",
+                "oled.h": "c",
+                "sys.h": "c",
+                "stdlib.h": "c",
+                "usart1.h": "c",
+                "usart2.h": "c",
+                "key.h": "c"
+        }
+}
