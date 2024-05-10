@@ -28,21 +28,7 @@ int main(void)
 	delay_init();
 	usart2_init(57600);
 	USART3_Init(9600);
-
-	// while(1)
-	// {
-	// 	// 入口参数： background:背景音乐选择，volumeLevel:音量等级，backgroundLevel:背景音乐音量等级，speechRate:语速等级，text:播报文本
-	// 	SYN_Play(0, 15, 0, 5, "全世界我也可以放弃"); // 合成语音
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-	// 	delay_ms(1500);
-
-	// }
-
+	
 	// 连接指纹模块
 	while (connect_FR() != COMPLETED)
 	{

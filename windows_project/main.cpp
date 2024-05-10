@@ -9,10 +9,6 @@
 int main(int argc, char *argv[])
 {
 
-	// char buffer[FILENAME_MAX];
-	// _getcwd(buffer, FILENAME_MAX);
-	// std::cout << "当前路径: " << buffer << std::endl;
-
 	logger.log(LogLevel::INFO, "\n\n-----------Start program -----------", true);
 
 	for (int i = 0; i < argc; i++)

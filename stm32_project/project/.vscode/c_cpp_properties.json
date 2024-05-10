@@ -3,11 +3,12 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\指纹识别系统\\project\\Start",
-                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\指纹识别系统\\project\\User",
-                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\指纹识别系统\\project\\Library",
-                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\指纹识别系统\\project\\Hardware",
-                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\指纹识别系统\\project\\System",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\Start",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\User",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\Library",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\Hardware",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\System",
+                "c:\\Users\\Achiever\\Desktop\\指纹识别系统-V1.5\\Fingerprint-identification-system\\stm32_project\\project\\Usart",
                 "D:\\Software\\code_software\\keil\\mian\\ARM\\ARMCC\\include",
                 "D:\\Software\\code_software\\keil\\mian\\ARM\\ARMCC\\include\\rw"
             ],
