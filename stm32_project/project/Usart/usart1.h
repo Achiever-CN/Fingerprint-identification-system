@@ -19,6 +19,7 @@ void Serial_Printf(char *format, ...);
 uint8_t Serial_GetRxFlag(void);
 
 char* Serial_GetRxData(void);
+void clear_rx_buffer(void);
 
 u8 check_received_data(char * received_data, char * cmp_data);
 

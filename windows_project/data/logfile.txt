@@ -1416,3 +1416,195 @@
 2024-05-10 10:54:14 [INFO] Received data from stm32: id = 1id = 2
 2024-05-10 10:54:16 [INFO] Received data from stm32: 1
 2024-05-10 10:54:16 [INFO] Waitting for input user message ...
+2024-05-28 09:47:25 [INFO] Open post success
+2024-05-28 09:47:25 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:47:25 [INFO] User_Manager construct success
+2024-05-28 09:47:25 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:47:25 [INFO] The local time : 9:47:25
+2024-05-28 09:47:25 [INFO] The start time : 8:0:0
+2024-05-28 09:47:25 [INFO] The end time : 24:0:0
+2024-05-28 09:47:26 [INFO] Received data from stm32: 鏋鵀鵀f驵~
+2024-05-28 09:47:27 [INFO] Received data from stm32: 鏋鵀鵀f驵~
+2024-05-28 09:47:32 [INFO] Received data from stm32: 鏋鵀鵀f驵~
+2024-05-28 09:47:37 [INFO] Received data from stm32: 鏋鵀鵀f驵~
+2024-05-28 09:48:30 [ERROR] Open post fail [%s]
+2024-05-28 09:48:30 [ERROR] Get dcbSerialParams fail in %s
+2024-05-28 09:48:30 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:48:30 [INFO] User_Manager construct success
+2024-05-28 09:48:30 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:48:42 [INFO] Open post success
+2024-05-28 09:48:42 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:48:42 [INFO] User_Manager construct success
+2024-05-28 09:48:42 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:48:42 [INFO] The local time : 9:48:42
+2024-05-28 09:48:42 [INFO] The start time : 8:0:0
+2024-05-28 09:48:42 [INFO] The end time : 24:0:0
+2024-05-28 09:48:44 [INFO] Received data from stm32: connect
+2024-05-28 09:48:53 [INFO] Received data from stm32: connect
+2024-05-28 09:49:17 [INFO] Received data from stm32: 3
+2024-05-28 09:49:17 [INFO] Waitting for user ID ...
+2024-05-28 09:49:19 [INFO] Received ID from stm32: 0
+2024-05-28 09:49:19 [INFO] delete all user
+2024-05-28 09:49:19 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:49:19 [INFO] Delete user success
+2024-05-28 09:49:44 [INFO] Received data from stm32: 1
+2024-05-28 09:49:44 [INFO] Waitting for input user message ...
+2024-05-28 09:49:52 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:49:52 [INFO] Add user success
+2024-05-28 09:49:52 [INFO] Send message to stm32 success
+2024-05-28 09:51:21 [INFO] Received data from stm32: 1
+2024-05-28 09:51:21 [INFO] Waitting for input user message ...
+2024-05-28 09:51:24 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:51:24 [INFO] Add user success
+2024-05-28 09:51:24 [INFO] Send message to stm32 success
+2024-05-28 09:51:46 [INFO] Open post success
+2024-05-28 09:51:46 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:51:46 [INFO] User_Manager construct success
+2024-05-28 09:51:46 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:51:46 [INFO] The local time : 9:51:46
+2024-05-28 09:51:46 [INFO] The start time : 8:0:0
+2024-05-28 09:51:46 [INFO] The end time : 24:0:0
+2024-05-28 09:51:58 [INFO] Received data from stm32: connect
+2024-05-28 09:52:09 [INFO] Received data from stm32: 3
+2024-05-28 09:52:09 [INFO] Waitting for user ID ...
+2024-05-28 09:52:11 [INFO] Received ID from stm32: 0
+2024-05-28 09:52:11 [INFO] delete all user
+2024-05-28 09:52:11 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:52:11 [INFO] Delete user success
+2024-05-28 09:52:37 [INFO] Received data from stm32: 1
+2024-05-28 09:52:37 [INFO] Waitting for input user message ...
+2024-05-28 09:52:38 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:52:38 [INFO] Add user success
+2024-05-28 09:52:38 [INFO] Send message to stm32 success
+2024-05-28 09:52:50 [INFO] Received data from stm32: 2
+2024-05-28 09:52:50 [INFO] Waitting for the ID from stm32 ...
+2024-05-28 09:52:51 [INFO] Received ID from stm32: 1
+2024-05-28 09:52:51 [INFO] Checking the ID is digit or not ...
+2024-05-28 09:52:51 [INFO] Checking the ID is exists or not ...
+2024-05-28 09:52:51 [INFO] The ID is exists
+2024-05-28 09:52:51 [INFO] Processing the ID ...
+2024-05-28 09:52:51 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:52:52 [INFO] Send message to stm32: cgm打卡成功
+
+2024-05-28 09:52:52 [INFO] Received data from stm32: cgm打卡成功
+2024-05-28 09:56:23 [INFO] Open post success
+2024-05-28 09:56:23 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:56:23 [INFO] User_Manager construct success
+2024-05-28 09:56:23 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:56:23 [INFO] The local time : 9:56:23
+2024-05-28 09:56:23 [INFO] The start time : 8:0:0
+2024-05-28 09:56:23 [INFO] The end time : 24:0:0
+2024-05-28 09:56:25 [INFO] Received data from stm32: connect
+2024-05-28 09:56:36 [INFO] Received data from stm32: 3
+2024-05-28 09:56:36 [INFO] Waitting for user ID ...
+2024-05-28 09:56:38 [INFO] Received ID from stm32: 0
+2024-05-28 09:56:38 [INFO] delete all user
+2024-05-28 09:56:38 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:56:38 [INFO] Delete user success
+2024-05-28 09:57:02 [INFO] Received data from stm32: 1
+2024-05-28 09:57:02 [INFO] Waitting for input user message ...
+2024-05-28 09:57:04 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:57:04 [INFO] Add user success
+2024-05-28 09:57:04 [INFO] Send message to stm32 success
+2024-05-28 09:57:17 [INFO] Received data from stm32: 2
+2024-05-28 09:57:17 [INFO] Waitting for the ID from stm32 ...
+2024-05-28 09:57:18 [INFO] Received ID from stm32: 1
+2024-05-28 09:57:18 [INFO] Checking the ID is digit or not ...
+2024-05-28 09:57:18 [INFO] Checking the ID is exists or not ...
+2024-05-28 09:57:18 [INFO] The ID is exists
+2024-05-28 09:57:18 [INFO] Processing the ID ...
+2024-05-28 09:57:18 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:57:19 [INFO] Send message to stm32: cgm打卡成功
+
+2024-05-28 09:57:20 [INFO] Received data from stm32: cgm打卡成功
+2024-05-28 09:58:48 [INFO] Open post success
+2024-05-28 09:58:48 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:58:48 [INFO] User_Manager construct success
+2024-05-28 09:58:48 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:58:48 [INFO] The local time : 9:58:48
+2024-05-28 09:58:48 [INFO] The start time : 8:0:0
+2024-05-28 09:58:48 [INFO] The end time : 24:0:0
+2024-05-28 09:59:18 [INFO] -----------End program -----------
+
+
+2024-05-28 09:59:18 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:59:18 [INFO] User_Manager destruct
+2024-05-28 09:59:23 [INFO] Open post success
+2024-05-28 09:59:23 [INFO] Open file ..\data\data.txt success
+2024-05-28 09:59:23 [INFO] User_Manager construct success
+2024-05-28 09:59:23 [INFO] 
+
+-----------Start program -----------
+2024-05-28 09:59:23 [INFO] The local time : 9:59:23
+2024-05-28 09:59:23 [INFO] The start time : 8:0:0
+2024-05-28 09:59:23 [INFO] The end time : 24:0:0
+2024-05-28 09:59:53 [INFO] -----------End program -----------
+
+
+2024-05-28 09:59:53 [INFO] Save data to ..\data\data.txt success
+2024-05-28 09:59:53 [INFO] User_Manager destruct
+2024-05-28 10:00:48 [INFO] Open post success
+2024-05-28 10:00:48 [INFO] Open file ..\data\data.txt success
+2024-05-28 10:00:48 [INFO] User_Manager construct success
+2024-05-28 10:00:48 [INFO] 
+
+-----------Start program -----------
+2024-05-28 10:00:48 [INFO] The local time : 10:0:48
+2024-05-28 10:00:48 [INFO] The start time : 8:0:0
+2024-05-28 10:00:48 [INFO] The end time : 24:0:0
+2024-05-28 10:01:18 [INFO] -----------End program -----------
+
+
+2024-05-28 10:01:18 [INFO] Save data to ..\data\data.txt success
+2024-05-28 10:01:18 [INFO] User_Manager destruct
+2024-06-03 10:23:00 [INFO] Open post success
+2024-06-03 10:23:00 [INFO] Open file ..\data\data.txt success
+2024-06-03 10:23:00 [INFO] User_Manager construct success
+2024-06-03 10:23:00 [INFO] 
+
+-----------Start program -----------
+2024-06-03 10:23:00 [INFO] The local time : 10:23:0
+2024-06-03 10:23:00 [INFO] The start time : 8:0:0
+2024-06-03 10:23:00 [INFO] The end time : 24:0:0
+2024-06-03 10:24:01 [INFO] Open post success
+2024-06-03 10:24:01 [INFO] Open file ..\data\data.txt success
+2024-06-03 10:24:01 [INFO] User_Manager construct success
+2024-06-03 10:24:01 [INFO] 
+
+-----------Start program -----------
+2024-06-03 10:24:01 [INFO] The local time : 10:24:1
+2024-06-03 10:24:01 [INFO] The start time : 8:0:0
+2024-06-03 10:24:01 [INFO] The end time : 24:0:0
+2024-06-03 14:43:29 [INFO] Open post success
+2024-06-03 14:43:29 [INFO] Open file ..\data\data.txt success
+2024-06-03 14:43:29 [INFO] User_Manager construct success
+2024-06-03 14:43:29 [INFO] 
+
+-----------Start program -----------
+2024-06-03 14:43:29 [INFO] The local time : 14:43:29
+2024-06-03 14:43:29 [INFO] The start time : 8:0:0
+2024-06-03 14:43:29 [INFO] The end time : 24:0:0
+2024-06-03 14:43:30 [INFO] Received data from stm32: 鏋鵀鵀f驵~鏋鵀鵀f驵~
+2024-06-03 14:43:58 [INFO] Open post success
+2024-06-03 14:43:58 [INFO] Open file ..\data\data.txt success
+2024-06-03 14:43:58 [INFO] User_Manager construct success
+2024-06-03 14:43:58 [INFO] 
+
+-----------Start program -----------
+2024-06-03 14:43:58 [INFO] The local time : 14:43:58
+2024-06-03 14:43:58 [INFO] The start time : 8:0:0
+2024-06-03 14:43:58 [INFO] The end time : 24:0:0
+2024-06-03 14:43:59 [INFO] Received data from stm32: 鏋鵀鵀f驵~
+2024-06-03 14:44:03 [INFO] Received data from stm32: 鏋鵀鵀f驵~

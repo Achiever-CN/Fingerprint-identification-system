@@ -27,6 +27,7 @@ public:
 
         void add_user(string name, string clock_in_counts, string checked);
         bool delete_user(string key);
+        bool revoke(void);
 
 
         void print_data();

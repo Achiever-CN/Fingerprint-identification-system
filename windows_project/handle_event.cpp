@@ -164,6 +164,7 @@ void add_user()
 	string name;
 	string clock_in_counts;
 	string checked;
+	string response = "ERROR";
 
 	logger.log(LogLevel::INFO, std::string("Waitting for input user message ..."), true);
 	std::cout << "Please input the user: name  clock_in_counts  checked" << std::endl;
@@ -172,7 +173,6 @@ void add_user()
 
 	user_manager.add_user(name, clock_in_counts, checked);
 
-	logger.log(LogLevel::INFO, std::string("Add user success"), true);
 
 	if (stm32.send_message(stm32.get_Post(), std::string("Down")) == SEND_DATA_ERROR)
 	{
@@ -181,6 +181,22 @@ void add_user()
 	else
 	{
 		logger.log(LogLevel::INFO, std::string("Send message to stm32 success"), true);
+	}
+
+	while (stm32.get_message(stm32.get_Post(), response) != GET_DATA)
+	{
+		Sleep(1000);
+	}
+
+	if(response == "Success")
+	{
+		logger.log(LogLevel::INFO, std::string("Add user success"), true);
+	}
+	else
+	{
+		user_manager.revoke();
+		logger.log(LogLevel::ERROR_, std::string("Add user fail"), true);
+
 	}
 }
 

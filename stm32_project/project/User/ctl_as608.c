@@ -67,12 +67,19 @@ enum ResultCode Add_FR(void)
 	SearchResult seach;
 	char *received_data;
 
+	delay_and_display("Add user clear", 3000);
+	clear_rx_buffer();
+
+	clear_rx_buffer();
+	
+
 	while (1)
 	{
 		switch (steps)
 		{
 		case PUT_FINGER:
 			times++;
+			SYN_DefaultPlay("请放置手指"); // 合成语音
 			delay_and_display("Put finger", 3000);
 
 			ensure = PS_GetImage(); // 第一次放置手指
@@ -176,22 +183,23 @@ enum ResultCode Add_FR(void)
 				return FAILURE;
 			}
 			// Serial_Printf("id = %d", id);
-			
 			delay_and_display("Save success", 3000);
 			get_Fingerprint_Count(&ValidN); // 读库指纹个数
 			sprintf(str, "Total is %d", ValidN);
 			delay_and_display(str, 3000);
 
-			Serial_Printf("%d", 1);
+			Serial_Printf("1");
 
 			if (check_received_data(received_data, "Down") == 1)
 			{
 				delay_and_display("Down", 3000);
+				Serial_Printf("Success");
 				SYN_DefaultPlay("用户添加成功"); // 合成语音
 			}
 			else
 			{
 				delay_and_display("Wrong", 3000);
+				Serial_Printf("Fail");
 				SYN_DefaultPlay("用户添加失败"); // 合成语音
 				PS_DeletChar(--id, 1);
 				// Serial_Printf("id = %d", id);
@@ -222,10 +230,12 @@ enum ResultCode Press_FR(void)
 
 	if (in_time == 0)
 	{
+		SYN_DefaultPlay("不在考勤时段"); // 合成语音
 		delay_and_display("Out of time", 3000);
 		return FAILURE;
 	}
 
+	SYN_DefaultPlay("请放置手指"); // 合成语音
 	delay_and_display("Put finger", 3000);
 
 	ensure = PS_GetImage();
@@ -249,6 +259,7 @@ enum ResultCode Press_FR(void)
 		return FAILURE;
 	
 	}
+	
 	delay_and_display("Search success", 3000);
 
 	sprintf(str_match, "Match ID:%d", seach.pageID);       // 显示匹配指纹的ID和分数
@@ -256,6 +267,7 @@ enum ResultCode Press_FR(void)
 	delay_and_display(str_match, 3000);
 
 	Serial_Printf("%d", seach.pageID);
+	clear_rx_buffer();
 
 	while(Serial_GetRxFlag() != 1)
 	{
@@ -285,6 +297,8 @@ enum ResultCode Del_FR(void)
 	u16 id = get_input_id();
 	char str[50];
 	char *received_data;
+
+
 	u8 ensure = (id == 0) ? PS_Empty() : PS_DeletChar(id, 1);
 
 	Serial_SendString("3");

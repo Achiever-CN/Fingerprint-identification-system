@@ -148,6 +148,12 @@ u8 check_received_data(char * received_data, char * cmp_data)
 		return 0;
 }
 
+void clear_rx_buffer(void)
+{
+	memset(rx_buffer, 0, BUFFER_SIZE);
+	rx_index = 0;
+}
+
 
 void USART1_IRQHandler(void)
 {

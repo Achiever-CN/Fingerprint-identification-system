@@ -199,6 +199,20 @@ bool User_Manager::delete_user(string key)
         return 1;
 }
 
+bool User_Manager:: revoke(void)
+{
+        wait_file_using();
+        if (user_data.size() == 0)
+        {
+                logger.log_format(LogLevel::ERROR_, false, "No user to revoke [%s]", __FUNCTION__);
+                return 0;
+        }
+        user_data.erase(to_string(user_data.size()));
+        is_datausing = false;
+        save();
+        return 1;
+}
+
 // // 获取用户数据
 // map<string, vector<string>> &User_Manager::get_data()
 // {

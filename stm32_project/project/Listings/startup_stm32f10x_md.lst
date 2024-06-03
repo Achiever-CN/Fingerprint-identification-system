@@ -477,11 +477,12 @@ ARM Macro Assembler    Page 8
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_stm32f10x_md.d -o.\objects\startup_stm32f10x_md.
-o -IC:\Users\Achiever\Desktop\指纹识别系统-V1.5\指纹识别系统\project\RTE -ID:\S
-oftware\code_software\keil\pack\Keil\STM32F1xx_DFP\1.0.5\Device\Include -ID:\So
-ftware\code_software\keil\mian\ARM\CMSIS\Include --predefine="__UVISION_VERSION
- SETA 514" --predefine="STM32F10X_MD SETA 1" --list=.\listings\startup_stm32f10
-x_md.lst Start\startup_stm32f10x_md.s
+o -Ic:\Users\Achiever\Desktop\doc\芙蓉\指纹识别系统-V1.5\Fingerprint-identifica
+tion-system\stm32_project\project\RTE -ID:\Software\code_software\keil\pack\Kei
+l\STM32F1xx_DFP\1.0.5\Device\Include -ID:\Software\code_software\keil\mian\ARM\
+CMSIS\Include --predefine="__UVISION_VERSION SETA 514" --predefine="STM32F10X_M
+D SETA 1" --list=.\listings\startup_stm32f10x_md.lst Start\startup_stm32f10x_md
+.s
 
 
 
